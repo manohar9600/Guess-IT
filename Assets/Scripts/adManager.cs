@@ -14,9 +14,7 @@ public class adManager : MonoBehaviour {
     AdRequest banner_request;
     string appId = "ca-app-pub-1499788680785494~3953034836";
     string bannerId = "ca-app-pub-1499788680785494/3392295420";
-    string bannerId_test = "ca-app-pub-3940256099942544/6300978111"; // test Ad
     string videoId = "ca-app-pub-1499788680785494/3651875830";
-    string videoId_test = "ca-app-pub-3940256099942544/5224354917"; //test Ad
 
     public void Start(){
         MobileAds.Initialize(appId);
