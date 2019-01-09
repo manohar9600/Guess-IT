@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "423826352648",
+    "firebase_url": "https://guess-it-adcd9.firebaseio.com",
+    "project_id": "guess-it-adcd9",
+    "storage_bucket": "guess-it-adcd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423826352648:android:a621f2b112b101b6",
+        "android_client_info": {
+          "package_name": "com.beatzStudios.GuessIT"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423826352648-tj9i3rfk1ten6kncesfvnahv5gnadmgq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7enxBzImcy8_wNv11TVvTG5nkhkwiCYI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
