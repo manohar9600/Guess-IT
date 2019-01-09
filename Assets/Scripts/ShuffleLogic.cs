@@ -17,6 +17,7 @@ public class ShuffleLogic : MonoBehaviour {
 	public string[] imageName_arr = new string[3];
 	List<string>[] image_folders = new List<string>[5];
     public List<int>[] indices_to_solve = new List<int>[5];
+    public List<int> data_structure = new List<int>();
     List<int> next_indice = new List<int>();
     List<int> next_bucket = new List<int>();
 
@@ -46,6 +47,7 @@ public class ShuffleLogic : MonoBehaviour {
                 }
             }
 
+            data_structure.Add(count);
             image_folders[i] = name_list;
             indices_to_solve[i] = indices;
 		}
@@ -80,6 +82,7 @@ public class ShuffleLogic : MonoBehaviour {
 	}
 
 	void next_(){
+        var used_image = sprite_arr[0];
         sprite_arr[0] = sprite_arr[1];
         sprite_arr[1] = sprite_arr[2];
         imageName_arr[0] = imageName_arr[1];

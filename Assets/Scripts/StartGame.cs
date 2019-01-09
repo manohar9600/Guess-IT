@@ -13,7 +13,6 @@ public class StartGame : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		anim.Play("startLogo");
-		//anim.Play("guessItLogo");
 	}
 
 	public void generate(string img_name){
