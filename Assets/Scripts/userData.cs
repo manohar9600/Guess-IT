@@ -30,7 +30,6 @@ public class userData : MonoBehaviour {
 			data.total_hints_used = 0;
 			data.total_images_solved = 0;
 			data.indices_toSolve = GetComponent<ShuffleLogic>().indices_to_solve;
-			data.data_structure = GetComponent<ShuffleLogic>().data_structure;
 			bf.Serialize(file, data);
 			file.Close();
 		}	
@@ -93,5 +92,4 @@ class player_info{
 	public int total_hints_used;
 	public int total_images_solved;
     public List<int>[] indices_toSolve;
-	public List<int> data_structure;
 }
